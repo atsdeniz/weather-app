@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+.wrapper {
+  position:relative;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  box-sizing:border-box;
+  top:50%;
+  right:2px;
+  transform: translateY(-50%);
+}
+
+.input {
+  box-sizing:border-box;
+  padding-left: 1.5rem;
+}
